@@ -5,13 +5,13 @@ from flaskblog.models import User, Post
 
 posts = [
     {
-        'author': 'Jim Halpert',
+        'day': 'Day -1',
         'title': 'Blog Post 1',
         'content': 'First post content',
         'date_posted': 'October 9, 2018'
     },
     {
-        'author': 'Pam Beasly Halpert',
+        'day': 'Day 0',
         'title': 'Blog Post 2',
         'content': 'Second post content',
         'date_posted': 'October 10, 2018'
